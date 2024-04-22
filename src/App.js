@@ -5,7 +5,7 @@ import "./App.css";
 
 //62b5750
 
-const API_URL = `https://www.omdbapi.com/?apikey=${process.env.62b5750}`;
+const API_URL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}`;
 
 const App = () => {
   const [movies, setMovies] = useState([]);
